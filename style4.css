@@ -1,0 +1,53 @@
+body{
+	background-color:lightgray;
+}
+#header{
+	font-family: 'Lobster', cursive;
+	text-align:center;
+	margin-top:10px;
+	color:#DAA520;
+	
+}
+p{
+	font-size:40px;
+	margin-top:0px;
+}
+
+.board{
+	width:600px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+}
+
+.card{
+	width:125px;
+	height:125px;
+	margin:3px;
+	display:inline-block;
+	border:solid 4px #FFD700;
+	border-radius:10px;
+	background-image:url("question.png");
+	transition: all.3s ease-in-out;
+	filter:brightness(85%);
+	cursor:pointer;
+	
+}
+
+.card:hover{
+	border:solid 4px #FFD700;
+	filter:brightness(100%);
+}
+
+.cardA{
+	width:125px;
+	height:125px;
+	margin:3px;
+	display:inline-block;
+	border:solid 4px #FFD700;
+	border-radius:10px;
+	background-image:url("question.png");
+	transition: all.3s ease-in-out;
+	filter:brightness(100%);
+	cursor:default;
+}
